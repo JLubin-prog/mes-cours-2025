@@ -1,0 +1,21 @@
+#notes reseaux importants
+
+Un protocole qui utilise beaucoup de ressources :
+•	peut ralentir le routeur (surtout s’il est bas de gamme),
+•	affecter la performance globale du réseau,
+•	empêcher d'autres services de bien fonctionner.
+
+
+Métriques utilisées par EIGRP :/Route
+•	Bande passante
+•	Délai
+•	Fiabilité
+•	Charge
+•	MTU (non utilisée dans le calcul par défaut)
+
+
+Fonctionnement de l’algorithme DUAL :
+DUAL (Diffusing Update Algorithm) garantit l’absence de boucles en choisissant les routes via une logique de faisabilité. 
+Il utilise la distance faisable et les successeurs/feasible successors pour faire une transition rapide et sûre en cas de changement.
+
+
